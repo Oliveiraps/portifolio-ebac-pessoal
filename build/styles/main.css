@@ -11,8 +11,8 @@
   font-family: Roboto, sans-serif;
 }
 body {
-  background-color: #2C3A47;
-  color: #CAD3C8;
+  background-color: #280003;
+  color: #DFFFD6;
 }
 li {
   list-style: none;
@@ -80,18 +80,18 @@ header .profile-avatar {
 }
 .project-list-item a {
   text-decoration: none;
-  background-color: #58B19F;
+  background-color: #AD8350;
   display: block;
   padding: 16px 20px;
   margin-bottom: 16px;
   text-align: center;
-  color: #CAD3C8;
+  color: #DFFFD6;
   font-weight: bold;
   border-radius: 30px;
-  border: 2px solid #58B19F;
+  border: 2px solid #AD8350;
   transition: all 0.3s ease;
 }
 .project-list-item a:hover {
   background-color: transparent;
-  color: #58B19F;
+  color: #AD8350;
 }
