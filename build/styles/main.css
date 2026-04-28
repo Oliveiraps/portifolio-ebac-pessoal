@@ -12,7 +12,7 @@
 }
 body {
   background-color: #280003;
-  color: #DFFFD6;
+  color: #dfffd6;
 }
 li {
   list-style: none;
@@ -21,7 +21,8 @@ li {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 40px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,18 +81,18 @@ header .profile-avatar {
 }
 .project-list-item a {
   text-decoration: none;
-  background-color: #AD8350;
+  background-color: #ad8350;
   display: block;
   padding: 16px 20px;
   margin-bottom: 16px;
   text-align: center;
-  color: #DFFFD6;
+  color: #dfffd6;
   font-weight: bold;
   border-radius: 30px;
-  border: 2px solid #AD8350;
+  border: 2px solid #ad8350;
   transition: all 0.3s ease;
 }
 .project-list-item a:hover {
   background-color: transparent;
-  color: #AD8350;
+  color: #ad8350;
 }

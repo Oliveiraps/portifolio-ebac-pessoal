@@ -1,8 +1,7 @@
-
 @import "mapa.less";
 
-@breakpointMobile: ~'(max-width: 767px)';
-@breakpointTablet: ~'(min-width: 768px) and (max-width: 1023px)';
+@breakpointMobile: ~"(max-width: 767px)";
+@breakpointTablet: ~"(min-width: 768px) and (max-width: 1023px)";
 
 .marginbottom8 {
     margin-bottom: 8px;
@@ -12,11 +11,11 @@
     font-size: 14px;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif; 
+    font-family: Roboto, sans-serif;
 }
 
 body {
@@ -32,14 +31,14 @@ li {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 40px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-
     @media @breakpointMobile {
-        max-width: 70%
+        max-width: 70%;
     }
 
     @media @breakpointTablet {
@@ -53,11 +52,11 @@ header {
     .profile-avatar {
         display: block;
         margin: 0 auto 24px;
-        border-radius:100px;
+        border-radius: 100px;
     }
 }
 
-.profile-bio{
+.profile-bio {
     text-align: center;
 
     &-name {
@@ -68,11 +67,10 @@ header {
     &-subtitle {
         .fontSize14();
         .marginbottom8();
-        
     }
     &-description {
         .fontSize14();
-        opacity: .7;
+        opacity: 0.7;
     }
 }
 
@@ -88,6 +86,7 @@ header {
 
         img {
             transition: all 0.3s ease;
+
             &:hover {
                 transform: scale(1.3);
             }
